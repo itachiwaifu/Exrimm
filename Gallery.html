@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            background-color: #800000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FFC300;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 25px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #800000;
+            text-align: center; 
+        }
+        .gallery-buttons {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            gap: 50px; 
+        }
+        img {
+            width: 1000px; 
+            height: 500px;
+            position: relative;
+        }
+        .logo {
+            width: 100px; 
+            height: auto;
+        }
+        h2 {
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Georgia', serif;
+        }
+        .gallery-buttons div {
+            position: relative; 
+            display: inline-block;
+        }
+        .button-label {
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .image-label {
+            display: block;
+            color: white;
+            font-size: 30px;
+            margin-top: 5px; 
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img class="logo" src="D:\College\Webpage\WhatsApp Image 2024-05-20 at 16.48.48_67cbfc30.jpg" alt="Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-buttons">
+            <div>
+                <img src="https://cdn.motor1.com/images/mgl/wloX4o/s1/zacoe-toyota-supra-widebody.jpg" alt="Image 1">
+                <span class="button-label">More</span>
+                <span class="image-label">Results</span>
+            </div>
+            <div>
+                <img src="https://m.foolcdn.com/media/dubs/original_images/Slide_3_-_CarParts.com_-_source_Getty.jpg" alt="Image 2">
+                <span class="button-label">More</span>
+                <span class="image-label">Products</span>
+            </div>
+            <div>
+                <img src="https://scx2.b-cdn.net/gfx/news/hires/2018/1-handshake.jpg" alt="Image 3">
+                <span class="button-label">More</span>
+                <span class="image-label">Photos with Customer</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

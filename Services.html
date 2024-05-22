@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            background-color: #800000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FFC300;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 25px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        h2, h3 {
+            color: white;
+            font-weight: bold;
+            margin-left: 10px;
+            font-size: 30px;
+            font-family: 'Georgia', serif;
+        }
+        img.logo {
+            width: 100px; 
+            height: auto; 
+            margin-left: 20px;
+        }
+        img.service-img {
+            width: 400px;
+            height: 300px;
+            margin: 20px;
+        }
+
+        #services {
+            text-align: center;
+        }
+        #search-box {
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        textarea {
+            width: 70%;
+            padding: 15px;
+            font-size: 20px;
+            border: 1px black;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background-color: #DCDCDC;
+        }
+        textarea {
+            height: 200px;
+        }
+        .services-row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .service {
+            margin: 20px;
+        }
+        .service-images {
+            color: white;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <a href="index.html"><img class="logo" src="D:\College\Webpage\WhatsApp Image 2024-05-20 at 16.48.48_67cbfc30.jpg" alt="Logo"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="services">
+        <h2>Our Services</h2>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+        </div>
+        <div class="services-row">
+            <div class="service">
+                <img class="service-img" src="https://blogs.autoflipz.com/wp-content/uploads/2015/03/How-Does-a-Car-Steering-System-Work.png" alt="Service 1">
+                <div class="service-images">Steering</div>
+            </div>
+            <div class="service">
+                <img class="service-img" src="https://www.carpockets.co.ke/cdn/shop/articles/the-secret-numbers-on-your-tyres-and-what-they-mean-carpockets_817d93d5-bec3-42a4-ad28-4ed97ea8ea58.jpg?v=1707828269" alt="Service 2">
+                <div class="service-images">Tyre</div>
+            </div>
+            <div class="service">
+                <img class="service-img" src="https://www.carsome.my/news/wp-content/uploads/2022/10/GettyImages-853517784.jpg" alt="Service 3">
+                <div class="service-images">Exhaust</div>
+            </div>
+            <div class="service">
+                <img class="service-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zul2wOp1K8trHQnmhBMK_50BQPSFGCxrMrq4_vUIGw&s" alt="Service 4">
+                <div class="service-images">Front Light</div>
+            </div>
+            <div class="service">
+                <img class="service-img" src="https://www.familyhandyman.com/wp-content/uploads/2023/02/GettyImages-1322207311.jpg" alt="Service 5">
+                <div class="service-images">Wrapping</div>
+            </div>
+            <div class="service">
+                <img class="service-img" src="https://d2m3nfprmhqjvd.cloudfront.net/blog/20220307202754/ezgif.com-gif-maker-2022-03-07T202004.250.jpg" alt="Service 6">
+                <div class="service-images">Painting</div>
+            </div>
+        </div>
+
+        <div class="customization">
+            <h3>Customize Require</h3>
+            <textarea placeholder="Enter your requirements"></textarea>
+            <button type="button">Submit</button>
+        </div>
+
+</section>
+</body>
+</html>
+
+
+
